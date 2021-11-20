@@ -8,16 +8,29 @@
   </head>
   <body>
     <form action="https://www.example.com">
-      <p>Введите email:<input type="email" name="name" autocomplete/></p>
-      <p>Введите url:<input type="url" name="url" id="url"
-        placeholder="https://example.com"
-        pattern="https://.*" autocomplete/></p>
-      <p>Введите телефон:<input type="tel" name="tel" pattern="2-[0-9]{3}-[0-9]{3}" autocomplete/></p>
-      <p>Введите число:<input type="number" autocomplete/></p>
-      <p>Выберите число:<input type="range" min="0" max="10"></p>
-      <input placeholder="Поиск по сайту" type="search" id="site-search">
-      <p>Выберите цвет:<input type="color"></p>
-      <input type="submit"></p>
+      <p><textarea rows="10" cols="45" name="text">Введите текст</textarea></p>
+      <p>
+        <select size="1" name="hero[]">
+          <option disabled>Выберите героя</option>
+          <option value="Чебурашка">Чебурашка</option>
+          <option selected value="Крокодил Гена">Крокодил Гена</option>
+          <option value="Шапокляк">Шапокляк</option>
+          <option value="Крыса Лариса">Крыса Лариса</option>
+        </select>
+      </p>  
+      <p><textarea rows="10" cols="45" name="text">Введите текст</textarea></p>
+      <p><select>
+        <optgroup label="Фрукт">
+         <option value="c1">Яблоко</option>
+         <option value="c2">Груша</option>
+         <option value="c3">Персик</option>
+        </optgroup>
+        <optgroup label="Овощи">
+         <option value="s1">Картошка</option>
+         <option value="s2">Огурец</option>
+         <option value="s3">Помидор</option>
+        </optgroup>
+        </select></p>
     </form>
   </body>
 </html>
