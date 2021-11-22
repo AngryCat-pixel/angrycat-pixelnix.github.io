@@ -1,7 +1,7 @@
-.main + p {
-    color: red;
-  }
+input[required] {
+  color: red;
+}
   
-  div ~ p {
-    background: blue;
-  }
+input[type="text"] {
+  background: blue;
+}
