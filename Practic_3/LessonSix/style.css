@@ -1,0 +1,7 @@
+  span {
+  text-decoration: line-through underline overline;
+}
+p {
+  word-spacing: 20px;
+  text-transform: capitalize;
+}
