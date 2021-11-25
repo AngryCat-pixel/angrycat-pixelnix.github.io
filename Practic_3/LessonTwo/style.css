@@ -1,0 +1,10 @@
+body {
+  background: rgba(0, 0, 0, .3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+p {
+  color: rgb(25, 0, 255);
+  /* color: rgb(4, 0, 255); */
+  /* color: #1900ff; */
+  /* color: hsl(246, 100%, 50%); */
+}
