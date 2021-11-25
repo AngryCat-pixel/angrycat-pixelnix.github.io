@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Garamond";
+  src: url(fonts/Garamond/CormorantGaramond-Bold.ttf);
+}
+body {
+  font-family: "Times New Roman", Garamond, serif;
+}
