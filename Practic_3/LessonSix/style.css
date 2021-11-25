@@ -1,7 +1,10 @@
-  span {
-  text-decoration: line-through underline overline;
-}
 p {
   word-spacing: 20px;
   text-transform: capitalize;
+}
+span:first-child {
+  letter-spacing: 5px;
+}
+span:last-child {
+  text-shadow: 1px 2px 5px #f70202;
 }
