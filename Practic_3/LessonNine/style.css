@@ -1,0 +1,7 @@
+div {
+  border: dashed 4px red;
+  border-radius: 50%;
+}
+p {
+  border: double 2px rgb(0, 0, 0);
+}
