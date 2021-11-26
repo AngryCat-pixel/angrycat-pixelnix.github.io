@@ -1,0 +1,10 @@
+div {
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+  background-image: url(img/w3c_home_nb.png);
+  background-size: 25%;
+  background-repeat: round;
+}
+
+/* Хотела сделать вот так "background: url(img/w3c_home_nb.png) round 25%;", но оно определяет 25% как bacground-position*/
