@@ -1,0 +1,32 @@
+
+table {
+  width: 200px;
+  height: 200px;
+  border-spacing: 0;
+}
+td:first-child, .color-blue{
+  border: 1px solid blue;
+  background-color: blue;
+}
+.color-red {
+  border: 1px solid red;
+  background-color: red;
+}
+.color-blue {
+  border-radius: 50%;
+}
+.border-top {
+  border-radius: 50% 50% 0 0;
+}
+.border-bottom {
+  border-radius: 0 0 50% 50%;
+}
+.border-left {
+  border-radius: 50% 0 0 0;
+}
+.border-left-bottom {
+  border-radius: 0 0 0 50%;
+}
+.border-right {
+  border-radius: 0 50% 50% 0 ;
+}
