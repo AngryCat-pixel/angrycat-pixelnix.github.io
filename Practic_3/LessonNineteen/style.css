@@ -1,0 +1,10 @@
+div {
+  margin: 50px;
+  width: 200px;
+  height: 100px;
+  background-image: url(img/w3c_home_nb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 25px -25px 10px 6px #04ff35, inset -25px 25px 10px 6px #000,
+    -40px -40px 10px 6px #ff0404, 40px 40px 8px 6px #042aff;
+}
