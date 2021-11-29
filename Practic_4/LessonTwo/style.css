@@ -1,0 +1,15 @@
+div {
+  width: 80%;
+  background-color: red;
+  float: left;
+}
+.green {
+  width: 20%;
+  background-color: green;  
+}
+.right {
+  float: right;
+}
+.left {
+  margin-right: 20%;
+}

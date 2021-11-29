@@ -1,0 +1,17 @@
+div {
+  width: 80px;
+  border: solid 1px #000;
+  float: left;
+}
+/* Вариант 1 */
+/* div:nth-child(odd) {
+  float: right;
+} */
+
+/* Вариант 2 */
+.float {
+  float: right;
+}
+
+
+/* Так и не поняла почему между левыми в элементами есть отступы */
