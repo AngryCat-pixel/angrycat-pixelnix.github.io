@@ -1,0 +1,21 @@
+/* Вариант 1 */
+
+/* .hide {
+  display: none;
+}
+ul {
+  list-style-type: none;
+} */
+
+/* Вариант 2 */
+
+.hide-two {
+  display: none
+}
+ul {
+  list-style-type: none;
+}
+.hide {
+  width: 80px;
+  background-color: rgb(255, 0, 0)
+}
