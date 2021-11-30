@@ -1,0 +1,24 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+.bottom {
+  position: relative;
+  background-color: red;
+  top: 200px;
+  left: 100px;
+}
+.top {
+  background-color: green;
+}
+.right {
+  position: relative;
+    background-color: blue;
+    bottom: 100px;
+    left: 100px;
+}
+.left {
+  background-color: #000;
+  position: relative;
+  bottom: 100px;
+}
