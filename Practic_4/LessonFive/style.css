@@ -1,0 +1,14 @@
+.wrapper {
+  margin-left: 50px;
+  display: list-item;
+  list-style-type: upper-alpha;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.in-block {
+  display: inline-block;
+}
