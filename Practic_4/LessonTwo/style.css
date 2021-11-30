@@ -1,15 +1,20 @@
-div {
-  width: 80%;
-  background-color: red;
-  float: left;
-}
 .green {
-  width: 20%;
-  background-color: green;  
+  background-color: green;
 }
-.right {
+.red {
+  background-color: red;
+}
+.one {
+  width: 20%;
   float: right;
 }
-.left {
+.two {
   margin-right: 20%;
+}
+.three {
+  width: 20%;
+  float: left;
+}
+.four {
+  margin-left: 20%;
 }

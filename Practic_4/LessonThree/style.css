@@ -1,25 +1,27 @@
 .red {
   width: 32%;
+  float: left;
 }
 .green {
-  float: right;
   width: 68%;
+  float: right;
 }
 .blue {
-  float: right;
-  width: 17%;
+  width: 32%;
+    float: right;
 }
-/* .black {
-} */
+.black {
+  margin-right: 32%;
+}
 .pink {
-  float: right;
-  width: 17%;
+  width: 32%;
+    float: right;
 }
 .light-blue {
-  float: left;
-  width: 17%;
+  width: 26%;
+    float: left;
 }
 .yellow {
-  width: 17%;
-  float: right;
+  width: 42%;
+    margin-left: 26%;
 }
