@@ -1,21 +1,12 @@
-/* Вариант 1 */
-
-/* .hide {
-  display: none;
-}
-ul {
-  list-style-type: none;
-} */
-
-/* Вариант 2 */
-
-.hide-two {
-  display: none
-}
-ul {
-  list-style-type: none;
-}
 .hide {
+  display: none;
+  transition: all 0.5s;
+}
+ul {
+  list-style-type: none;
+}
+li:hover .hide {
   width: 80px;
-  background-color: rgb(255, 0, 0)
+  display: block;
+  background-color: red;
 }
