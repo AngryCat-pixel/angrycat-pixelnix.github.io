@@ -1,0 +1,15 @@
+div {
+  height: 50px;
+}
+.red{
+  width: 100px;
+  background-color: red;
+  float: left;
+}
+.right {
+  width: 100px;
+  float: right;
+}
+.center {
+  margin-right: 100px;
+}

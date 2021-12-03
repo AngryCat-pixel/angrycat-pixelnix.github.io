@@ -1,0 +1,36 @@
+/* Вариант___1 */
+
+/* .flex-container {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  width: 50px;
+} */
+
+
+
+/* Вариант___2 */
+
+/* .flex-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+div div {
+  width: 100px;
+} */
+
+
+
+/* Вариант___3 */
+
+.flex-container {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+div div {
+  width: 150px;
+}
