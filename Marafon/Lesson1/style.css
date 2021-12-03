@@ -1,14 +1,29 @@
-div {
-  width: 80px;
-  border: solid 1px #000;
-  float: left;
+.wrap {
+  display: flex;
+  width: 500px;
+  border: 1px solid;
+  padding: 10px;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
 }
-/* Вариант 1 */
-/* div:nth-child(odd) {
-  float: right;
-} */
+.wrap div {
+  margin-top: 5px;
+  border: 1px solid;
+  width: 230px;
+}
 
-/* Вариант 2 */
-.float {
-  float: right;
+.item-1 {
+  order: 3;
+}
+.item-2 {
+  order: 2;
+}
+.item-3 {
+  order: 1;
+}
+.item-4 {
+  order: 4;
+}
+.item-5 {
+  order: 5;
 }
