@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Адаптивный дизайн</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <link
+      rel="stylesheet"
+      media="all and (max-device-width: 767px)"
+      href="mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="all and (min-device-width: 768px) and (max-device-width: 1023px)"
+      href="tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="all and (min-device-width: 1024px)"
+      href="desctop.css"
+    />
+  </head> 
   <body>
-
+    <div class="flex-container">
+      <div class="full one">100% – 100% – 100%</div>
+      <div class="item two">100% – 25% – 20%</div>
+      <div class="item three">100% – 25% – 20%</div>
+      <div class="item-half four">100% – 50% – 50%</div>
+      <div class="full five">100% – 100% – 100%</div>
+    </div>
   </body>
 </html>

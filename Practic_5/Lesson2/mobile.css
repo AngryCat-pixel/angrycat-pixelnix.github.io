@@ -1,0 +1,7 @@
+div.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+div div {
+  border: 1px solid #000;
+}

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+div.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div div{
+  border: 1px solid #000;
+}
+.item {
+  width: 25%;
+}
+.full {
+  width: 100%;
+}
+.item-half {
+  width: 50%;
+}
+
+.one {
+  order: 1;
+}
+
+.two {
+  order: 2;
+}
+
+.three {
+  order: 4;
+}
+
+.four {
+  order: 3;
+}
+
+.five {
+  order: 5;
+}
