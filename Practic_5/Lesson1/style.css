@@ -1,36 +1,53 @@
-/* Вариант___1 */
+/* Задача___1 */
 
 /* .flex-container {
   width: 400px;
   display: flex;
-  justify-content: space-around;
 }
-.item {
-  width: 50px;
+[class|="item"] {
+  flex-basis: 50px;
+}
+
+.item-1 {
+  flex-grow: 1;
+}
+.item-2 {
+  flex-grow: 0;
+}
+.item-3 {
+  flex-grow: 1;
+}
+.item-4 {
+  flex-grow: 0;
 } */
 
 
 
-/* Вариант___2 */
+/* Задача___2 */
 
 /* .flex-container {
   width: 500px;
   display: flex;
-  justify-content: space-around;
 }
-div div {
-  width: 100px;
+[class|="item"] {
+  flex-basis: 100px;
+  flex-grow: 1;
 } */
 
 
 
-/* Вариант___3 */
+/* Задача___3 */
 
 .flex-container {
   width: 600px;
   display: flex;
-  justify-content: space-around;
 }
-div div {
-  width: 150px;
+[class|="item"] {
+  flex-basis: 100px;
+}
+.item-1, .item-2 {
+  flex-grow: 0;
+}
+.item-3, .item-4 {
+  flex-grow: 1;
 }
