@@ -140,5 +140,39 @@ ask(
 let income = 3333;
 let consumption = 1750;
 let cost = 8000;
-let result = (cost / (income - consumption)).toFixed(0);
-console.log(`За ${result} мес.`)
+let result = Math.ceil(cost / (income - consumption));
+console.log(`За ${result} мес.`);
+
+// Задание No18. Вопросы пользователю
+let sum = 0;
+for (let index = 0; index < 10; index++) {
+  let value = +prompt("Введите число");
+  if (Math.sign(value) === -1) {
+    sum += value;
+  }
+}
+console.log(sum);
+
+// Задание No19. Скопирован ли массив?
+//Что выведет следующий код?
+let fruits = ["Яблоки", "Груша", "Апельсин"];
+// добавляем новое значение в "копию"
+let shoppingCart = fruits;
+shoppingCart.push("Банан");
+// что в fruits?
+alert(fruits.length); // 4, так как shoppingCart и fruits это один и тот же массив
+
+//Задание No20. Операции с массивами
+let styles = ["Джаз", "Блюз"];
+styles.push("Рок-н-ролл");
+styles[Math.floor((styles.length - 1) / 2)] = "Классика";
+alert(styles.shift());
+styles.unshift("Рэп", "Регги");
+
+//Задание No21. Вызов в контексте массива
+//Каков результат? Почему?
+let arr = ["a", "b"];
+arr.push(function () {
+  alert(this);
+});
+arr[2](); // a, b и function.
