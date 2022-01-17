@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание No7. Тег в комментарии</title>
+  </head>
+  <body>
+    Что выведет этот код?
+    <script>
+      let body = document.body;
+      body.innerHTML = "<!--" + body.tagName + "-->";
+      alert(body.firstChild.data); // что выведет? BODY
+    </script>
+  </body>
+</html>
